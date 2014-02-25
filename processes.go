@@ -7,17 +7,17 @@ import (
 )
 
 type PsEntry struct {
-  User string
-  Pid  int
-  CpuUsagePct float64
-  MemUsagePct float64
-  VirtualMem  int
-  ResidentMem int
-  TT          string
-  State       string
-  Started     string
-  RunningTime string
-  Command     string
+  User            string
+  Pid             int
+  CpuUsagePct     float64
+  MemUsagePct     float64
+  VirtualMemory   int
+  ResidentMemory  int
+  TT              string
+  State           string
+  Started         string
+  RunningTime     string
+  Command         string
 }
 
 type PsList []PsEntry
